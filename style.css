@@ -4,17 +4,48 @@ body{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-.fw-600{
-  font-weight: 600;
+img{
+  display: block;
+  width: 100%;
+}
+.fw-200{
+  font-weight: 200;
 }
 .fw-400{
   font-weight: 400;
 }
+.fw-600{
+  font-weight: 600;
+}
 .fw-700{
   font-weight: 700;
 }
+.fs-10{
+  font-size: 10px;
+}
 .fs-14{
   font-size: 14px;
+}
+.fs-20{
+  font-size: 20px;
+}
+.fs-25{
+  font-size: 25px;
+}
+.fs-30{
+  font-size: 30px;
+}
+.fs-40{
+  font-size: 40px;
+}
+.fs-50{
+  font-size: 50px;
+}
+.text-white{
+  color: #FFFFFF;
+}
+.text-center{
+  text-align: center;
 }
 .main-container{
     background: rgb(41, 40, 40);
@@ -22,6 +53,7 @@ body{
   .header-section{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 6px;
     padding-top: 20px;
   }
@@ -34,9 +66,9 @@ body{
   }
   .navbar{
     display: flex;
-    min-width: 656px;
+    max-width: 656px;
     align-items: center;
-    justify-content: space-between;
+    gap: 35px;
   }
   .product{
     display: flex;
@@ -49,18 +81,16 @@ body{
   }
   .product-item1{
     margin-left: 5px;
-    min-width: 16px;
+    max-width: 16px;
     height: 16px;
   }
   .option-product{
     background: black;
-    color: #FFFFFF;
   }
   .product-item2{
     padding-right: 18px;
     background: none;
     border: none;
-    color: #FFFFFF;
   }
   .logo{
     min-width: 88px;
@@ -68,21 +98,19 @@ body{
   }
   .nav-text{
    text-decoration: none;
-   color: #FFFFFF;
   }
-  .register{
+  .btn-register{
    min-width: 126px;
    min-height: 38px;
    border: 1px solid #FFFFFF;
    background: none;
-   color: #FFFFFF;
    border-radius: 42px;
   }
   .horizontal{
     min-height: 1px;
     border: 1px solid #666666;
   }
-  .register:hover{
+  .btn-register:hover{
     background: linear-gradient(90deg, #BC67DB 0%, #E91F92 100%);
     border: none;
   }
@@ -91,7 +119,6 @@ body{
    min-height: 38px;
    border: none;
    background: linear-gradient(90deg, #BC67DB 0%, #E91F92 100%);
-   color: #FFFFFF;
    border-radius: 38px;
   }
   .horizontal{
@@ -104,7 +131,7 @@ body{
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
-    margin-bottom: 134px;
+    margin-bottom: 145px;
   }
   .banner-text{
     max-width: 794px;
@@ -114,7 +141,6 @@ body{
     text-align: center;
     font-size: 57px;
     line-height: 120%;
-    color: #FFFFFF;
     margin-bottom: 10px;
   }
   .economy{
@@ -124,7 +150,6 @@ body{
    font-size: 20px;
    line-height: 30px;
    text-align: center;
-   color: #FFFFFF;
   }
   .btn-container{
     display: flex;
@@ -145,11 +170,9 @@ body{
     min-width: 179px;
     min-height: 48px;
     border-radius: 6px;
-    color: #FFFFFF;
   }
   .btn-secondary:hover{
     background: linear-gradient(90deg, #BC67DB 0%, #E91F92 100%);
-    color: #FFFFFF;
     border: none;
   }
   .details{
@@ -161,10 +184,100 @@ body{
   .price{
     text-align: center;
     font-size: 45px;
-    color: #FFFFFF;
   }
   .detail-text{
-    margin-top: -40px;
+    margin-top: -50px;
     text-align: center;
-    color: #FFFFFF;
   }
+ 
+  /* Second Section Css */
+  .fingertip-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+  .fingertip-text{
+    margin-left: 45px;
+  }
+  .wallet{
+    max-width: 542px;
+  }
+  .profit{
+    margin: 0px;
+    min-height: 122px;
+    max-width: 414px;
+    line-height: 120%;
+  }
+  .pro-text{
+    margin-top: 60px;
+  }
+  .depost-text{
+    min-width: 541px;
+    margin-top: 33px;
+    line-height: 30px;
+  }
+  .investor{
+    margin-top: 55px;
+    padding: 10px 49px 5px 20px;
+    max-width: 310px;
+    min-height: 110px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 17px;
+  }
+  .new-invester{
+    margin: 0;
+  }
+  .learn-text{
+    line-height: 21px;
+  }
+  .connect{
+    margin-top: 21px;
+    max-width: 351px;
+    min-height: 50px;
+    background: #FAD5DE;
+    border-radius: 17px;
+    padding-left: 20px;
+    padding-top: 12px;
+ }
+ .connect-wallet{
+  margin: 0px;
+ }
+ .fingertip-img{
+  margin-top: 50px;
+  margin-left: 5px;
+  width: 630px;
+  height: 527px;
+  background-image: url("/Images/fingertip.png");
+ }
+ /* Crypto Section */
+ .crypto{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 138px;
+ }
+ .minutes{
+  margin: 0;
+  line-height: 120%;
+ }
+ .crypto-icons{
+  display: flex;
+  margin-top: 107px;
+  gap: 145px;
+ }
+ .register{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 270px;
+ }
+ .note-img{
+  max-width: 76px;
+  max-height: 76px;
+ }
+ 
