@@ -74,7 +74,8 @@ img{
     gap: 35px;
   }
   .nav-button{
-    gap: 10px
+    display: flex;
+    gap: 12px
   }
   .product{
     display: flex;
@@ -210,10 +211,11 @@ img{
   .fingertip-container{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1280px;
+    max-width: 1210px;
+    justify-content: space-around;
+    padding-left: 70px;
   }
   .fingertip-text{
-    margin-left: 70px;
     max-width: 524px;
   }
   .wallet{
@@ -262,7 +264,6 @@ img{
  }
  .fingertip-img{
   margin-top: 70px;
-  margin-left: 50px;
   width: 630px;
   height: 527px;
   background-image: url("/Images/fingertip.png");
@@ -285,6 +286,7 @@ img{
   display: flex;
   margin-top: 107px;
   gap: 145px;
+  flex-wrap: wrap;
  }
  .register{
   display: flex;
@@ -309,7 +311,7 @@ img{
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-self: center;
+  border-bottom: 1px solid #FFFFFF;
  }
 .platform{
   display: flex;
@@ -317,16 +319,12 @@ img{
   align-items: center;
   max-width: 1107px;
   padding: 82px 0;
-  border-bottom: 1px solid #FFFFFF;
 }
 .unlimited{
   max-width: 590px;
   height: 122px;
   line-height: 120%;
   font-size: 51px;
-}
-.accest:nth-child(odd) {
-  flex-direction: row-reverse;
 }
 .kompwnd-make{
   max-width: 422px;
@@ -338,6 +336,9 @@ img{
   display: flex;
   flex-wrap: wrap;
   gap: 180px;
+}
+.accest:nth-child(odd) {
+  flex-direction: row-reverse;
 }
 .accest-text{
   margin-top: 80px;
@@ -358,10 +359,69 @@ img{
 }
 .accest-icon{
   margin-top: 100px;
-  max-width: 400px;
+  max-width: 328px;
   max-height: 421px;
 }
 .accest-img{
-  max-width: 400px;
+  max-width: 328px;
   max-height: 421px;
+}
+.accest-icon2{
+  max-width: 328px;
+  max-height: 421px;
+}
+/* Access Section */
+.access-contanier{
+  padding: 90px 0;
+  background: #343434;
+  border-bottom: 1px solid #FFFFFF;
+}
+.access{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 1150px;
+}
+.useful-text{
+  max-width: 629px;
+  font-size: 51px;
+}
+.access-card-container{
+  display: flex;
+  gap: 44px;
+  flex-wrap: wrap;
+}
+.access-card{
+  max-width: 339px;
+  max-height: 401px;
+  padding: 44px 28px;
+  background: #FFFFFF;
+  border-radius: 31px;
+}
+.access-card-item{
+  display: flex;
+  gap: 70px;
+}
+.pre-market{
+  margin: 0;
+  max-width: 131px;
+  max-height: 64px;
+}
+.magic-ball{
+  margin-top: 18px;
+  width: 70px;
+  height: 70px;
+}
+.btn-predict{
+  margin-top: 80px;
+  border-radius: 6px;
+  min-width: 283px;
+ min-height: 50px;
+}
+.defi-text{
+  margin-top: 25px;
+  max-width: 260px;
+  height: 104px;
+  line-height: 24px;
+  font-size: 16px;
 }
