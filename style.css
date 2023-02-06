@@ -202,8 +202,11 @@ img{
     text-align: center;
   }
  
-  /* Second Section Css */
+  /* Fingertip Section Css */
   .fingertip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 40px;
     padding-bottom: 100px;
     border-bottom: 1px solid #FFFFFF;
@@ -275,7 +278,7 @@ img{
   flex-direction: column;
   text-align: center;
   background-color: #343434;
-  padding: 90px 0px;
+  padding: 90px 0px 134px 0px;
   border-bottom: 1px solid #FFFFFF;
  }
  .minutes{
@@ -318,7 +321,7 @@ img{
   flex-direction: column;
   align-items: center;
   max-width: 1107px;
-  padding: 82px 0;
+  padding: 40px 0px 110px 0px;
 }
 .unlimited{
   max-width: 590px;
@@ -341,7 +344,7 @@ img{
   flex-direction: row-reverse;
 }
 .accest-text{
-  margin-top: 80px;
+  margin-top: 40px;
   max-width: 465px;
 }
 .earn-accest{
@@ -358,7 +361,7 @@ img{
   text-align: left;
 }
 .accest-icon{
-  margin-top: 100px;
+  margin-top: 60px;
   max-width: 328px;
   max-height: 421px;
 }
@@ -372,7 +375,10 @@ img{
 }
 /* Access Section */
 .access-contanier{
-  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 55px 0;
   background: #343434;
   border-bottom: 1px solid #FFFFFF;
 }
@@ -380,7 +386,7 @@ img{
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 1150px;
+  max-width: 1150px;
 }
 .useful-text{
   max-width: 629px;
@@ -408,12 +414,12 @@ img{
   max-height: 64px;
 }
 .magic-ball{
-  margin-top: 18px;
+  margin-top: 8px;
   width: 70px;
   height: 70px;
 }
 .btn-predict{
-  margin-top: 80px;
+  margin-top: 60px;
   border-radius: 6px;
   min-width: 283px;
  min-height: 50px;
@@ -424,4 +430,125 @@ img{
   height: 104px;
   line-height: 24px;
   font-size: 16px;
+}
+/* Growing Section */
+.growing-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 110px 0px 180px 0px;
+  max-width: 1363px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.growing-text{
+  margin-left: 60px;
+  max-width: 590px;
+}
+.grwoing-items{
+  max-width: 753px;
+}
+.network{
+  margin: 0;
+  max-width: 590px;
+  font-size: 64px;
+line-height: 117%;
+}
+.ecosystem{
+  font-weight: 500;
+  max-width: 506px;
+  font-size: 16px;
+  line-height: 27px; 
+}
+.btn-eco{
+  margin-top: 40px;
+ min-width: 242px;
+ min-height: 50px;
+ border-radius: 6px;
+}
+.btn-grwoing-bg{
+  background: rgba(79, 79, 79, 0.49);
+  backdrop-filter: blur(8px);
+  border-radius: 17px;
+}
+.btn-grwoing-bg:hover{
+  cursor: pointer;
+}
+.alta-crypt{
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  align-content: center;
+}
+.btn-alta{
+  max-width: 137px;
+  max-height: 117px;
+  padding: 39px 27px;
+}
+.alta-img{
+  width: 83px;
+height: 39px;
+}
+.btn-tote{
+  max-width: 123px;
+  max-height: 117px;
+  padding: 43px 28px;
+}
+.btn-lottery{
+  margin-top: 15px;
+  max-width: 203px;
+  max-height: 81px;
+}
+.tote-container{
+  display: flex;
+  align-items: center;
+  margin-top: 39px;
+  gap: 40px;
+}
+.btn-finace{
+  max-width: 209px;
+  max-height: 117px;
+  padding: 25px;
+}
+.btn-lunch{
+  overflow: hidden;
+  max-width: 279px;
+  max-height: 81px;
+  padding: 31px 94px 24px 42px;
+}
+.btn-skill{
+  max-width: 279px;
+  max-height: 81px;
+  padding: 19px 42px;
+}
+.btn-infra{
+  max-width: 179px;
+  max-height: 117px;
+  padding: 41px 8px 35px 28px;
+}
+.btn-mdu{
+  max-width: 145px;
+  max-height: 140px;
+  padding: 49px 20px 50px 30px;
+}
+.btn-hashpage{
+  max-width: 179px;
+  max-height: 65px;
+  padding: 22px 30px 17px 31px;
+}
+.btn-gvn{
+  max-width: 106px;
+  max-height: 65px;
+  padding: 22px 17px 27px 31px;
+}
+.btn-ala{
+  max-width: 179px;
+  max-height: 65px;
+  padding: 22px 37px 17px 31px;
+}
+.btn-margin{
+  margin-left: 50px;
+}
+.btn-hashpage-container{
+  float: right;
 }
