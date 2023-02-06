@@ -100,8 +100,8 @@ img{
     border: none;
   }
   .logo{
-    min-width: 88px;
-    min-height: 52px;
+    max-width: 88px;
+    max-height: 52px;
   }
   .nav-text{
    text-decoration: none;
@@ -551,4 +551,60 @@ height: 39px;
 }
 .btn-hashpage-container{
   float: right;
+}
+/* Footer Section */
+.footer-container{
+  max-width: 1440px;
+  background: #F9F9F9;
+  padding: 50px 200px 100px 100px;
+}
+.footer-data{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+}
+.footer-mint{
+  margin-top: 20px;
+  max-width: 173px;
+  max-height: 30px;
+ font-size: 18px;
+}
+.email-ft{
+  margin-top: 44px;
+}
+.reserved{
+  margin-top: 28px;
+  max-width: 132px;
+  max-height: 46px;
+  line-height: 21px;
+}
+.product-ft{
+  font-size: 18px;
+  line-height: 27px;
+}
+.social-container{
+  display: flex;
+  flex-wrap: wrap;
+   gap: 10px;
+  max-width: 110px;
+  margin-top: 10px;
+}
+.social-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background: #5F505F;
+  border-radius: 100%;
+}
+.social-pix{
+  max-width: 15px;
+  max-height: 15px;
+}
+.footer-text{
+  text-decoration: none;
+  display: block;
+  margin-top: 8px;
+  color: black;
 }
