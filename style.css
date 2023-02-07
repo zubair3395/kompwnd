@@ -194,11 +194,12 @@ img{
     margin: 18px auto 40px auto;
   }
   .price{
+    margin-bottom: 0;
     text-align: center;
     font-size: 45px;
   }
   .detail-text{
-    margin-top: -50px;
+    margin: 0;
     text-align: center;
   }
  
@@ -487,12 +488,6 @@ line-height: 117%;
 .btn-grwoing-bg:hover{
   cursor: pointer;
 }
-.alta-crypt{
-  display: flex;
-  gap: 36px;
-  justify-content: center;
-  align-content: center;
-}
 .btn-alta{
   max-width: 137px;
   max-height: 117px;
@@ -515,8 +510,12 @@ height: 39px;
 .tote-container{
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 39px;
   gap: 40px;
+}
+.tote-container:nth-child(even){
+  margin-left: 130px;
 }
 .btn-finace{
   max-width: 209px;
@@ -562,9 +561,6 @@ height: 39px;
 .btn-margin{
   margin-left: 50px;
 }
-.btn-hashpage-container{
-  float: right;
-}
 /* Footer Section */
 .footer-container{
   display: flex;
@@ -578,6 +574,10 @@ height: 39px;
   justify-content: space-between;
   gap:60px;
   max-width: 1340px;
+}
+.logo-footer{
+  max-width: 133px;
+  max-height: 78.59px;
 }
 .footer-mint{
   margin-top: 20px;
