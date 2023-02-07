@@ -269,7 +269,6 @@ img{
   margin-top: 70px;
   width: 630px;
   height: 527px;
-  background-image: url("/Images/fingertip.png");
  }
  /* Crypto Section */
  .crypto{
@@ -346,6 +345,9 @@ img{
 .accest-text{
   margin-top: 40px;
   max-width: 465px;
+}
+.block{
+  display: block;
 }
 .earn-accest{
   margin: 0;
@@ -434,12 +436,23 @@ img{
 /* Growing Section */
 .growing-container{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px 0px 180px 0px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.gro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1363px;
+}
+.growing{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 110px 0px 180px 0px;
-  max-width: 1363px;
-  border-bottom: 1px solid #FFFFFF;
 }
 .growing-text{
   margin-left: 60px;
@@ -554,14 +567,17 @@ height: 39px;
 }
 /* Footer Section */
 .footer-container{
-  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #F9F9F9;
   padding: 50px 200px 100px 100px;
 }
 .footer-data{
   display: flex;
   justify-content: space-between;
-  max-width: 1140px;
+  gap:60px;
+  max-width: 1340px;
 }
 .footer-mint{
   margin-top: 20px;
